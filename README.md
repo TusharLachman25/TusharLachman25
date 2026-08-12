@@ -40,7 +40,8 @@ walkthroughs are on [tusharlachman.dev](https://tusharlachman.dev).
 
 Coursework worth reading — a CNN on colon tissue split by *patient* rather than by
 image, an exam timetabler in Answer Set Programming, a heap allocator built on
-`sbrk` — is written up under
+`sbrk`, and first-year team work in C++ and Java (Minecraft mazes through the
+mcpp API, a food-loss awareness site on Javalin over SQLite) — is written up under
 [/academic](https://tusharlachman.dev/#academic).
 
 ---
