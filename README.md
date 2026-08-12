@@ -96,7 +96,7 @@ Intelligence, Deep Learning, and Software Engineering: Process and Tools.
 ## 📫 Connect With Me
 
 - **Portfolio** — [tusharlachman.dev](https://tusharlachman.dev)
-- **LinkedIn** — [tusharlachman](https://www.linkedin.com/in/tusharlachman-505264345)
+- **LinkedIn** — [tusharlachman](https://www.linkedin.com/in/tusharlachman)
 - **Email** — tusharbudhrani@gmail.com
 
 ---
