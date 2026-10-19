@@ -27,15 +27,17 @@ software, data, ML, platform, QA or product.
 
 ## 🚀 What I've Built
 
-Five products, all solo, all shipped to real users. Full write-ups with video
-walkthroughs are on [tusharlachman.dev](https://tusharlachman.dev).
+Seven products, all solo, all shipped to real users. Full write-ups with trailers,
+walkthroughs and screenshots are on [tusharlachman.dev](https://tusharlachman.dev).
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Medical Practice Management Platform** · [case study](https://tusharlachman.dev/work/medical) | The system a Jakarta family practice runs on every day — patients, appointments, billing, insurance claims, clinical documents and WhatsApp messaging. **Sold on a paid monthly subscription.** 66 edge functions, 31 migrations, 269 unit tests. *Repo private — it holds real clinical data.* | React · TypeScript · Supabase · Deno · Capacitor · Claude API · Twilio |
+| **Medical Practice Management Platform** · [case study](https://tusharlachman.dev/work/medical) | The system a Jakarta family practice runs on every day: patients, appointments, billing, insurance claims, clinical documents, and a WhatsApp assistant patients book through by tapping. **Sold on a paid monthly subscription.** 89 edge functions, 54 migrations, 1,975 unit tests. *Repo private — it holds real clinical data.* | React · TypeScript · Supabase · Deno · Capacitor · Claude API · Twilio |
+| **[Poker Tracker](https://github.com/TusharLachman25/poker-tracker)** · [case study](https://tusharlachman.dev/work/poker-tracker) | The home game's ledger: who's up, who's down and who owes who, to the cent. Settles a night in the provably fewest payments, and every phone keeps one shared ledger, offline first. A web app and an Android APK from one build, with 63 unit tests. | React · TypeScript · Zustand · Supabase · Capacitor · Vitest |
+| **[FitScroll](https://github.com/TusharLachman25/FitScroll)** · [case study](https://tusharlachman.dev/work/fitscroll) | One push-up buys one minute of Instagram. Reps counted on-device by ML Kit pose detection, minutes that expire after 24 hours, and a lock that lands mid-scroll. 125 unit tests that need no phone. | Kotlin · Jetpack Compose · CameraX · ML Kit · JUnit · Robolectric |
 | **[Jarvis — Personal Life OS](https://github.com/TusharLachman25/jarvis-life-os)** · [case study](https://tusharlachman.dev/work/jarvis) | One screen for tasks, calendar, health and money as an international student. 38 REST endpoints, two wearable ecosystems reconciled into one day, AUD↔IDR tracked against a 30-day baseline. In daily use — mine. | Next.js · TypeScript · Supabase · Google OAuth · Claude API |
 | **[Locked In — Social Fitness App](https://github.com/TusharLachman25/Locked-In)** · [case study](https://tusharlachman.dev/work/locked-in) | A squad-based workout tracker my friends actually installed. Log a session by screenshotting your watch; push notifications fired by Postgres triggers; row-level security on every table. Shipped as an Android APK. | React Native · Expo · Supabase · Gemini vision · EAS Build |
-| **[Kitchen OS](https://github.com/TusharLachman25/kitchen-os)** · [case study](https://tusharlachman.dev/work/ai-meal) | Know what is in your pantry, what you can cook, and what it does to your macros. Cooking a recipe deducts its ingredients, converting between grams, millilitres and pieces. Schema designed from an ERD, 66-function data layer. | Python · Streamlit · PostgreSQL · Gemini · pandas · Altair |
+| **[Kitchen OS](https://github.com/TusharLachman25/kitchen-os)** · [case study](https://tusharlachman.dev/work/kitchen-os) | Know what is in your pantry, what you can cook, and what it does to your macros. Cooking a recipe deducts its ingredients, converting between grams, millilitres and pieces. Schema designed from an ERD, 66-function data layer. | Python · Streamlit · PostgreSQL · Gemini · pandas · Altair |
 | **[Bets — The Vault](https://github.com/TusharLachman25/bets-the-vault)** · [case study](https://tusharlachman.dev/work/bets) | The ledger for the handshake bets a friend group never writes down. One-off wagers that resolve onto a winner, ongoing ones that keep a running tally and never do. Shipped to the group as an APK. | React Native · Expo · Supabase · react-native-web |
 
 Coursework worth reading — a CNN on colon tissue split by *patient* rather than by
@@ -49,26 +51,30 @@ mcpp API, a food-loss awareness site on Javalin over SQLite) — is written up u
 ## 🛠️ Tech Stack
 
 ### Languages
-Python · TypeScript · JavaScript · Java · C · C++ · SQL · Prolog
+Python · TypeScript · JavaScript · Kotlin · Java · C · C++ · SQL · Prolog
 
 ### Frameworks
 React · React Native (Expo) · Next.js · Node.js · Flask · Streamlit · Tailwind CSS
+
+### Mobile
+Native Android (Kotlin, Jetpack Compose) · CameraX · ML Kit on-device pose detection ·
+accessibility services · Capacitor · Expo / EAS Build
 
 ### Backend & Data
 PostgreSQL · Supabase · REST API design · serverless functions · OAuth 2.0 ·
 row-level security · schema design & migrations
 
 ### Cloud & DevOps
-AWS (EC2, ECS, S3, DynamoDB) · Docker · Vercel · EAS Build · Firebase Cloud
-Messaging · Git
+AWS (EC2, ECS, S3, DynamoDB) · Docker · Vercel · EAS Build · Gradle · Firebase
+Cloud Messaging · Git
 
 ### AI & Data Science
-Claude API · Google Gemini (text & vision) · scikit-learn · pandas · NLTK ·
-transformers · NetworkX
+Claude API (tool use) · Google Gemini (text & vision) · PyTorch · scikit-learn ·
+pandas · NLTK · transformers · NetworkX
 
 ### Practice
-Unit testing (Vitest, pytest) · monorepos · CI to Vercel and EAS · technical
-writing & onboarding docs
+Unit testing (Vitest, pytest, JUnit, Robolectric) · monorepos · CI to Vercel, EAS
+and GitHub Actions · technical writing & onboarding docs
 
 ---
 
